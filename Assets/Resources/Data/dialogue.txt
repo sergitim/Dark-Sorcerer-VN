@@ -1,0 +1,13 @@
+-Scene1-
+Hello world!
+This is a test message.
+
+-Scene2-
+This is the second scene.
+It has multiple messages.
+And they will appear one after the other.
+
+-Scene3-
+This is the third scene.
+It has a choice.
+[Choose your weapon:|Sword|Axe|Bow|Act 1
