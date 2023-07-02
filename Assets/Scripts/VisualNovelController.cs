@@ -181,11 +181,35 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act1AImageChangingLines = new Dictionary<int, int>()
         {
-            { 1, 34 },
+            { 1, 149 },
 
         };
 
         imageChangingLinesByAct.Add("act1A", act1AImageChangingLines);
+
+
+
+        Dictionary<int, int> act2AAImageChangingLines = new Dictionary<int, int>()
+        {
+            { 1, 149 },
+
+        };
+
+        imageChangingLinesByAct.Add("act2AA", act2AAImageChangingLines);
+
+
+
+
+        Dictionary<int, int> act2ABImageChangingLines = new Dictionary<int, int>()
+        {
+            { 1, 149 },
+
+        };
+
+        imageChangingLinesByAct.Add("act2AB", act2ABImageChangingLines);
+
+
+
 
 
         Dictionary<int, int> act1BImageChangingLines = new Dictionary<int, int>()
@@ -296,8 +320,13 @@ public class VisualNovelController : MonoBehaviour
             { 163, 131 },
             { 166, 116 },
             { 171, 132 },
-           // { 174, 126 },
+            { 174, 133 },
             { 179, 126 },
+            { 182, 134 },
+            { 190, 135 },
+            { 193, 136 },
+            { 198, 137 },
+            { 201, 138 },
 
 
 
@@ -309,6 +338,83 @@ public class VisualNovelController : MonoBehaviour
         };
 
         imageChangingLinesByAct.Add("act2BA", act2BAImageChangingLines);
+
+
+
+
+        Dictionary<int, int> act2BBImageChangingLines = new Dictionary<int, int>()
+        {
+            { 1, 149 },
+
+        };
+
+        imageChangingLinesByAct.Add("Act2BB", act2BBImageChangingLines);
+
+
+        Dictionary<int, int> act3BBAImageChangingLines = new Dictionary<int, int>()
+        {
+            { 1, 149 },
+
+        };
+
+        imageChangingLinesByAct.Add("act3BBA", act3BBAImageChangingLines);
+
+
+
+        Dictionary<int, int> act3BBBImageChangingLines = new Dictionary<int, int>()
+        {
+            { 1, 149 },
+
+        };
+
+        imageChangingLinesByAct.Add("act3BBB", act3BBBImageChangingLines);
+
+
+        Dictionary<int, int> act3BAAImageChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 79 },
+            { 1, 136 },
+            { 6, 135 },
+            { 9, 141 },
+            { 10, 131 },
+            { 15, 142 },
+            { 19, 148 },
+            { 22, 137 },
+            { 26, 132 },
+            { 32, 147 },
+            { 37, 134 },
+            { 39, 143 },
+            { 41, 53 },
+            { 43, 139 },
+            { 48, 146 },
+            { 50, 91 },
+
+
+        };
+
+
+        imageChangingLinesByAct.Add("act3BAA", act3BAAImageChangingLines);
+
+
+
+        Dictionary<int, int> act3BABImageChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 143 },
+            { 1, 139 },
+            { 7, 140 },
+            { 13, 142 },
+            { 15, 145 },
+            { 19, 143 },
+            { 24, 144 },
+            { 26, 146 },
+            { 28, 147 },
+            { 29, 148 },
+        };
+
+
+        imageChangingLinesByAct.Add("act3BAB", act3BABImageChangingLines);
+
+
 
         // Add other acts' image changing lines as needed...
 
@@ -545,7 +651,10 @@ public class VisualNovelController : MonoBehaviour
         // Set the dialogue text to the first line of the new file
         dialogueText.text = dialogueLines[currentLineIndex];
         backlogText.text = dialogueLines[currentLineIndex];
-       
+        
+        // set the new image for the first line
+        imageChange(currentAct, currentLineIndex, false);
+
 
     }
 
@@ -668,6 +777,10 @@ public class VisualNovelController : MonoBehaviour
                     // Set the background image
                     Background.sprite = Sprite.Create(BackgroundImages[imageChangingLines[currentLine]], new Rect(0.0f, 0.0f, BackgroundImages[imageChangingLines[currentLine]].width, BackgroundImages[imageChangingLines[currentLine]].height), new Vector2(0.5f, 0.5f), 100.0f);
                 }
+            }
+            else
+            {
+                Debug.Log("act " + act + " not contained!");
             }
 
         }
