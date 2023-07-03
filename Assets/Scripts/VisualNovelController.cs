@@ -30,6 +30,7 @@ public class VisualNovelController : MonoBehaviour
     private bool isChoiceDisplayed = false;
     bool isSkipping = false;
     public Image Background;
+    public Sprite InterfaceBox;
     public AudioSource BGM;
     public SaveLoadSystem sls;
 
@@ -96,7 +97,7 @@ public class VisualNovelController : MonoBehaviour
             { 46, 1 },
             { 56, 5 },
             { 77, 2 },
-            { 88, 1 },
+            { 87, 1 },
             { 119, 5 },
         };
 
@@ -115,14 +116,61 @@ public class VisualNovelController : MonoBehaviour
         Dictionary<int, int> act1BSongChangingLines = new Dictionary<int, int>()
         {
             { 0, 3 },
-            { 20, 1 },
-            { 50, 2 },
-            { 56, 3 },
+            { 7, 2 },
+            { 22, 1 },
+            { 36, 6 },
+            { 42, 1 },
+            { 50, 5 },
+            { 54, 1 },
             { 77, 2 },
+            { 85, 5 },
+            { 100, 1 },
+            { 147, 4 },
+            { 170, 1 },
 
         };
 
         songChangingLinesByAct.Add("act1B", act1BSongChangingLines);
+
+
+        Dictionary<int, int> act2BASongChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 3 },
+            { 13, 1 },
+            { 33, 4 },
+            { 45, 6 },
+            { 71, 4 },
+            { 88, 0 },
+            { 101, 6 },
+            { 126, 5 },
+            { 133, 6 },
+            { 142, 1 },
+            { 153, 3 },
+            { 182, 5 },
+
+        };
+
+        songChangingLinesByAct.Add("act2BA", act2BASongChangingLines);
+
+
+        Dictionary<int, int> act3BAASongChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 5 },
+
+        };
+
+        songChangingLinesByAct.Add("act3BAA", act3BAASongChangingLines);
+
+
+
+        Dictionary<int, int> act3BABSongChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 5 },
+
+        };
+
+        songChangingLinesByAct.Add("act3BAB", act3BABSongChangingLines);
+
 
 
         // Add other acts' song changing lines as needed...
@@ -214,6 +262,7 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act1BImageChangingLines = new Dictionary<int, int>()
         {
+            { 0, 40 },
             { 1, 34 },
             { 7, 41 },
             { 19, 28 },
@@ -573,34 +622,79 @@ public class VisualNovelController : MonoBehaviour
         // Create a new panel to hold the choice buttons
         GameObject choicePanel = new GameObject("ChoicePanel", typeof(RectTransform));
         choicePanel.transform.SetParent(canvas.transform);
+        choicePanel.GetComponent<RectTransform>().anchoredPosition = new Vector2(0,0);
 
         // Position the panel above the dialogue text
         RectTransform panelRectTransform = choicePanel.GetComponent<RectTransform>();
         RectTransform textRectTransform = dialogueText.GetComponent<RectTransform>();
-        panelRectTransform.anchoredPosition = textRectTransform.anchoredPosition + new Vector2(0, textRectTransform.sizeDelta.y + 50);
+        panelRectTransform.anchoredPosition = textRectTransform.anchoredPosition + new Vector2(0, -190+ textRectTransform.sizeDelta.y);
 
         // Create a button for each choice
         for (int i = 0; i < choices.Length; i++)
         {
             if (i == 0) // First item is the label
             {
+
+                // Create a parent object for the choice label and image
+                GameObject choiceItem = new GameObject("ChoiceItem", typeof(RectTransform));
+                choiceItem.transform.SetParent(choicePanel.transform);
+
+
+                // Create the image component for the choice
+                Image choiceImage = choiceItem.AddComponent<Image>();
+                // Set the sprite or image for the choice image component
+                choiceImage.sprite =InterfaceBox;
+
+
+
                 // Create a label for the choices
                 GameObject choiceLabel = new GameObject("ChoiceLabel", typeof(RectTransform), typeof(Text));
-                choiceLabel.transform.SetParent(choicePanel.transform);
-                choiceLabel.GetComponent<Text>().text = choices[i];
-                choiceLabel.GetComponent<Text>().fontSize = 20;
-                choiceLabel.GetComponent<Text>().fontStyle = FontStyle.Bold;
-                choiceLabel.GetComponent<Text>().color = Color.white;
-                choiceLabel.GetComponent<Text>().font = dialogueText.font;
-
+                choiceLabel.transform.SetParent(choiceItem.transform);
+                Text choiceLabelText = choiceLabel.GetComponent<Text>();
+                choiceLabelText.text = choices[i];
+                choiceLabelText.fontSize = 20;
+                choiceLabelText.fontStyle = FontStyle.Bold;
+                choiceLabelText.color = Color.black;
+                choiceLabelText.font = dialogueText.font;
 
                 // Adjust the size of the label
                 RectTransform labelRectTransform = choiceLabel.GetComponent<RectTransform>();
-                labelRectTransform.sizeDelta = new Vector2(400, 30);
-                labelRectTransform.anchorMin = new Vector2(0, 1);
-                labelRectTransform.anchorMax = new Vector2(0, 1);
-                labelRectTransform.pivot = new Vector2(0, 1);
-                labelRectTransform.anchoredPosition = new Vector2(0, 0);
+                labelRectTransform.anchorMin = new Vector2(0, 0);
+                labelRectTransform.anchorMax = new Vector2(1, 1); // Set the anchor preset to stretch
+                labelRectTransform.pivot = new Vector2(0.5f, 0.5f);
+
+                // Calculate the preferred width and height of the text box
+                float preferredWidth = choiceLabelText.preferredWidth + 10;
+                float preferredHeight = 30f; // Set a fixed height that suits your design
+
+                // Set the size of the choice item to match the preferred width and fixed height
+                RectTransform choiceItemRectTransform = choiceItem.GetComponent<RectTransform>();
+                choiceItemRectTransform.sizeDelta = new Vector2(preferredWidth, preferredHeight);
+
+                // Set the position of the choice item within the panel
+                choiceItemRectTransform.anchoredPosition = new Vector2(0, -preferredHeight / 2f);
+
+                // Set the position of the choice image within the choice item
+                RectTransform imageRectTransform = choiceImage.GetComponent<RectTransform>();
+                //imageRectTransform.anchorMin = new Vector2(0, 0);
+                //imageRectTransform.anchorMax = new Vector2(1, 1); // Set the anchor preset to stretch
+                imageRectTransform.pivot = new Vector2(0.5f, 0.5f);
+                imageRectTransform.anchoredPosition = Vector2.zero;
+
+                // Adjust the size of the choice image to match the size of the choice item
+                //choiceImage.GetComponent<RectTransform>().sizeDelta = choiceItemRectTransform.sizeDelta;
+
+                /*Left*/
+                labelRectTransform.offsetMin = new Vector2(0,0);
+                labelRectTransform.offsetMax = new Vector2(0, 0);
+                /*Right*/
+                //rectTransform.offsetMax.x;
+                /*Top*/
+                //rectTransform.offsetMax.y;
+                /*Bottom*/
+                //rectTransform.offsetMin.y;
+
+
 
 
 
@@ -652,8 +746,9 @@ public class VisualNovelController : MonoBehaviour
         dialogueText.text = dialogueLines[currentLineIndex];
         backlogText.text = dialogueLines[currentLineIndex];
         
-        // set the new image for the first line
+        // set the new image and music for the first line
         imageChange(currentAct, currentLineIndex, false);
+        musicChange(currentAct, currentLineIndex);
 
 
     }
@@ -729,6 +824,9 @@ public class VisualNovelController : MonoBehaviour
                     Debug.Log("Yessss~  Load " + act);
                     Dictionary<int, int> imageChangingLines = imageChangingLinesByAct[act];
                     int previousKey = -1; // Variable to store the key with a value immediately lesser
+
+
+
                     foreach (var key in imageChangingLines.Keys)
                     {
                         if (key < currentLine && (previousKey == -1 || key > previousKey))
@@ -738,8 +836,17 @@ public class VisualNovelController : MonoBehaviour
                     }
 
                     Debug.Log(previousKey);
+                    if (previousKey == -1)
+                    {
+                        Background.sprite = Sprite.Create(BackgroundImages[imageChangingLines[0]], new Rect(0.0f, 0.0f, BackgroundImages[imageChangingLines[0]].width, BackgroundImages[imageChangingLines[0]].height), new Vector2(0.5f, 0.5f), 100.0f);
 
-                    Background.sprite = Sprite.Create(BackgroundImages[imageChangingLines[previousKey]], new Rect(0.0f, 0.0f, BackgroundImages[imageChangingLines[previousKey]].width, BackgroundImages[imageChangingLines[previousKey]].height), new Vector2(0.5f, 0.5f), 100.0f);
+                    }
+                    else
+                    {
+                        Background.sprite = Sprite.Create(BackgroundImages[imageChangingLines[previousKey]], new Rect(0.0f, 0.0f, BackgroundImages[imageChangingLines[previousKey]].width, BackgroundImages[imageChangingLines[previousKey]].height), new Vector2(0.5f, 0.5f), 100.0f);
+                    }
+
+
 
 
 
@@ -799,6 +906,13 @@ public class VisualNovelController : MonoBehaviour
                 BGM.Play();
             }
         }
+
+        else
+        {
+            Debug.Log("Music: Act not contained!");
+        }
+
+
     }
 
     public string GetCurrentMusicFile()

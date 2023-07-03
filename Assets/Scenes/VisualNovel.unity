@@ -897,6 +897,7 @@ MonoBehaviour:
   dialogueLines: []
   currentLineIndex: 0
   Background: {fileID: 914964622}
+  InterfaceBox: {fileID: 21300000, guid: bfdcd2cb5431f7c4888bff58ab36efd8, type: 3}
   BGM: {fileID: 520281954}
   sls: {fileID: 520281955}
   colors: []
@@ -1491,7 +1492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 140.82, y: 138.7}
+  m_AnchoredPosition: {x: 216.5, y: 184.8}
   m_SizeDelta: {x: 41.882812, y: 46.05474}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801887807
@@ -2727,7 +2728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 182.7, y: 138.7}
+  m_AnchoredPosition: {x: 258.38, y: 184.79999}
   m_SizeDelta: {x: 41.882812, y: 46.05474}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087857663
