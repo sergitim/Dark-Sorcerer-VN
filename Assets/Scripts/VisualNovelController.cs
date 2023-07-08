@@ -229,7 +229,67 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act1AImageChangingLines = new Dictionary<int, int>()
         {
-            { 1, 149 },
+            { 0, 40 },
+            { 5, 34 },
+            { 8, 32 }, //Needs to be changed by a picture of Arin's little sister, when she's still a little girl
+            { 11, 158 },
+            { 16, 34 }, //Consider changing this one. It requires Sabel looking slightly unhappy.
+            { 22, 32 }, //Change it to one with Sabel standing next to Irina and her mother.
+            { 23, 158 }, //Eldric.
+            { 28, 157 }, // Arin and Eldric sit, as they discuss their training
+            { 37, 28 }, //Chpter 4: Training begins.
+
+            { 38, 29 }, //Arin reading a book, studying.
+            { 41, 29 }, //Arin with his family. He took Irina on walks in the forest, played games with her, and helped his mother care for his bedridden father.
+            { 43, 29 }, //Arin laying in bed, contemplative, at night.
+            { 46, 29 }, // Transition scene, the following day... Arin packing up his bags OR picture of the village.
+            { 48, 28 }, //Eldric's tower. (DONE)
+            { 51, 29 }, //Eldric greets arin and leads him to his room.
+            { 59, 29 }, //Arin's new room at the tower.
+            { 62, 29 }, // Training/meditation room. Arin followed Eldric to a spacious room filled with books, potions, and various magical artifacts. There was a large circle etched onto the floor, and Eldric gestured for Arin to stand in the center of it.
+            { 65, 29 }, // Arin, with his eyes closed. Magic glow around him, or gathered around his hand, if it appears in the image.
+            { 71, 29 }, //Eldric talking to Arin, while Arin practices magic diligently.
+            { 75, 29 }, //Training rom 2, with training dummies.
+            { 77, 29 }, //Arin focusing and casting magic, trying to push away the dummies.
+            { 84, 29 }, //Arin and Eldric have dinner
+            { 85, 29 }, // Morning, Arin wakes up Maybe a repeat of Arin's room.
+            { 86, 29 }, //Eldric holding a small wooden box
+            //Consider adding a picture in this spot: Arin struggling to lift the stones from the cage.
+            { 91, 29 }, //Eryndor offering advice to Arin
+            { 92, 29 }, // Arin makes a stone float with his magic.
+            { 98, 29 }, // Eldric watches Arin train.
+            { 100, 29 }, //Arin spends the rest of the day levitating one stone.
+
+            { 103, 160 }, //Chapter 5: Training and Revelations
+
+            { 104, 29 }, //Same as the previous one, Arin levitating one stone.
+            { 111, 29 }, //Arin and Eldric have dinner, re-use the picture used in line 84
+            { 114, 61 }, // Picture of Eryndor, the Dark Sorcerer, since they are talking about him. Use one of the images that are already there. (DONE)
+            { 117, 29 }, // Re-use the picture of Arin and Eldric having dinner.
+            { 125, 29 }, // Eldric drags out a chest from the corner of the training room.
+            { 136, 29 }, // Arin makes the chest float in the air
+            { 143, 29 }, // Arin, thinking/having an idea.
+            { 146, 29 }, // Same as the earlier line, Arin makes the chest float in the air.
+            { 150, 29 }, // Arin makes the thre stones float at once. They are all attached to each other, as if connected by a magical string.
+            { 154, 29 }, //Eldric imparting wisdom. It should be possible to re-use one of the pictures in which he appears, such as line 91
+            { 158, 29 }, //Eldric casts a spell. It raises in the air the training dummies, and all the other furniture in the room.
+            { 159, 29 }, // All the furnitue and training dummies together form a wall.
+            { 164, 29 }, //Eldric returns the furniture that was floating to the floor. Maybe re-use the picture from line 158?
+            { 166, 29 }, //Dinner with Eldric again. Re-use the image from 117.
+
+            { 169, 158 }, //Chapter 6: The Graduation Exam
+
+            { 170, 29 }, //Arin casting the spell that raises furniture in the air.
+            { 178, 135 }, // Eldric and Sabel standing together in a chamber of the tower, surrounded by chunks of wood, steel and rock.
+            { 188, 29 }, // Arin nodding, serious.
+            { 190, 29 }, // Eldric, with his arms crossed, in the middle of the room.
+            { 195, 29 }, // Sabel raises a magical barrier, her eyes glowing with light.
+            { 197, 29 }, // Arin raises a wall of debris and rock chunks from all over the place.
+            { 200, 29 }, // A magical blast from Eldric breaks the barrier.
+
+            { 236, 160 }, //Chapter 7: Call for adventure
+            { 272, 158 }, //Chapter 8: Infiltration 
+            { 337, 158 },
 
         };
 
@@ -423,18 +483,20 @@ public class VisualNovelController : MonoBehaviour
         {
             { 0, 79 },
             { 1, 136 },
-            { 6, 135 },
-            { 9, 141 },
+            { 2, 149 },
+            { 4, 150 },
+            { 6, 151 },
+            { 9, 152 },
             { 10, 131 },
-            { 15, 142 },
-            { 19, 148 },
-            { 22, 137 },
+            { 15, 153 },
+            { 19, 154 },
+            { 22, 155 },
             { 26, 132 },
-            { 32, 147 },
-            { 37, 134 },
-            { 39, 143 },
+            { 33, 156 },
+            //{ 37, 134 },
+            { 38, 143 },
             { 41, 53 },
-            { 43, 139 },
+            { 43, 157 },
             { 48, 146 },
             { 50, 91 },
 
