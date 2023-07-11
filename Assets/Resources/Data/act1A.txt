@@ -216,7 +216,8 @@ Sabel: "It’s been five minutes. Arin passed, as far as I’m concerned.”
 Eldric: “It’s decided, then. Arin, you’ve passed the test. You may call yourself a Mage, from now on.”
 As soon as Arin heard Eldric's announcement, he felt an overwhelming sense of relief. He had managed to do it, somehow. Eldric walked over to him, beaming with pride, and pats him on the back.
 Eldric: "Good job, Arin! You did great!"
-Arin grinned, feeling proud of himself. He had proven to Eldric and Sabel that he was worthy of becoming a mage. Sabel walked up to him and handed him a badge, congratulating him on his success.
+Arin grinned, feeling proud of himself. He had proven to Eldric and Sabel that he was worthy of becoming a mage.
+Sabel walked up to him and handed him a badge, congratulating him on his success.
 Sabel: "Congratulations, Arin. You have officially graduated from your apprenticeship and are now a full-fledged mage. This is just the beginning, though, so don’t begin slacking now. You still have much to learn.”
 Arin: “O-of course, Master Sabel! I’ll do my best!”
 Arin took the badge, feeling a sense of pride wash over him. He had worked very hard for this moment, and it had finally paid off. He had achieved his goal of becoming a proper mage, and now he could begin a new chapter in his life.
@@ -241,31 +242,34 @@ His mother greeted him with a big smile when he entered the room.
 Mom: "Good morning, dear! How are you feeling?"
 Arin: "I'm doing great. I still can't believe I've become a mage. With these powers I've gained, I should be able to face whatever challenges lie ahead."
 Mom nodded with a proud expression on her face.
-Carmen: "That's what I like to hear! And we are so happy to have our little boy back home safely."
+Mom: "That's what I like to hear! And we are so happy to have our little boy back home safely."
 Arin hugged his mother tightly, thankful that they were all reunited again.
 Irina: "Big brother! Won't you teach me magic as well? You said you would, but you've been busy with training all the time..."
 His little sister sulked.
 Arin: "Of course, I'll start teaching you magic right away!"
 Irina giggled happily, running up to give Arin another hug.
 Arin smiled affectionately at his sibling, knowing that she looked up to him as her role model.
-Soon after breakfast, Sabel came by the house and picked up Arin. There were important news she had to discuss with him and Eldric.They decided to walk towards Eldric's tower together, enjoying the fresh morning air.
+Soon after breakfast, Sabel came by the house and picked up Arin. There were important news she had to discuss with him and Eldric.
+They decided to walk towards Eldric's tower together, enjoying the fresh morning air.
 Sabel brought up something troubling she had heard from one of her sources in the city guard.
 Sabel: "Apparently, there has been an increase in activity by bandits along the trade routes leading to Dune Village."
 Arin frowned, concerned about the safety of travelers using those roads.
 Arin: "Do you think it could be related to the Dark Sorcerer?"
 Sabel shrugged.
 Sabel: "It's possible. His influence seems to be spreading across the land. But honestly, I don't know much more than that."
-Eldric nodded in agreement.
+When they arrived at the wizard's tower and told him the situation, Eldric nodded in agreement.
 Eldric: "We need to investigate this further. If the Black Guard is behind these attacks,we must put a stop to it."
 Arin knew that a trip through the dangerous forest would be required to reach the bandit hideouts. He also realized that this would be a perfect opportunity for him to use his powers to make a difference.
 Arin: "I'm ready to help. What do you want me to do?"
 Sabel and Eldric exchanged glances.
 Sabel: "Well...the truth is, there may be a way to speed things up. But we need your help with it."
-Eldric: "Yes. We've learned that the Dark Sorcerer possesses a powerful artifact called the Orb of Chaos. It is a type of arcane focus, attuned to demonic magic. It's rumored to grant its wielder immense power over chaotic forces, and even bring demons into our realm."
+Eldric: "Yes. We've learned that the Dark Sorcerer possesses a powerful artifact called the Orb of Chaos. It is a type of arcane focus, attuned to demonic magic."
+Eldric: "It's rumored to grant its wielder immense power over chaotic forces, and even bring demons into our realm."
 Sabel: "Fighting him while he is in the possession of this orb is very dangerous. But if we could steal it from him and use it against him,we might stand a chance."
 Arin was stunned by the revelation. The thought of facing such a formidable foe made his heart race with excitement.
 Arin: "How can I help?"
-Sabel: "The plan is risky, but it's the best option we have. We will send you on a mission to sneak into thefortress where the Dark Sorcerer is hiding. Your task will be to find the orb and bring it back to us. Can you do that, Arin?"
+Sabel: "The plan is risky, but it's the best option we have. We will send you on a mission to sneak into thefortress where the Dark Sorcerer is hiding."
+Sabel: "Your task will be to find the orb and bring it back to us. Can you do that, Arin?"
 Arin nodded determinedly.
 Arin: "I'll get the orb. Don't worry."
 Sabel gave Arin a reassuring pat on the shoulder.
@@ -280,7 +284,9 @@ Eldric: "Stop! There's someone ahead!"
 Arin froze as Eldric reached for his sword. Moments later, a figure stepped out from the shadows. It was a Black Guard, armed with a spear and wearing dark leather armor.
 Guard: "Halt! Who goes there?"
 Eldric drew his own weapon and readied himself for battle.
-The mercenary raised his spear, preparing to attack.Arin saw his chance and unleashed a blast of fire from his hand, striking the guard squarely in the chest. The impact sent the guard flying backwards, where he crashed into a tree and fell limp to the ground.
+The mercenary raised his spear, preparing to attack.
+Arin saw his chance and unleashed a blast of magic from his hand, striking the guard squarely in the chest.
+The impact sent the guard flying backwards, where he crashed into a tree and fell limp to the ground.
 Arin turned to Eldric, feeling a surge of adrenaline.
 Arin: "That was easy."
 Eldric nodded in approval.
@@ -299,15 +305,22 @@ Arin nodded, taking a deep breath.
 Arin: "Thanks for bringing me this far, Eldric. I owe you one."
 Eldric patted him on the shoulder.
 Eldric: "No problem. See you outside."
-He cast a final look at Arin before disappearing back through the tunnel. A moment later, Arin heard the sound crackling lightning and explosions and the screams of men, signaling that Eldric had started his diversion.
-Arin took a deep breath and faced the door. He concentrated, summoning all his magical power, and uttered the incantation to break the enchantment. Instantly, the heavy iron bars began to glow red hot, and the massive bolt snapped off its hinges.
-The portal swung wide, revealing a dimly lit hallway beyond. Arin stepped inside cautiously, staff at the ready.
+He cast a final look at Arin before disappearing back through the tunnel.
+A moment later, Arin heard the sound crackling lightning and explosions and the screams of men, signaling that Eldric had started his diversion.
+Arin took a deep breath and faced the door. He concentrated, summoning all his magical power, and uttered the incantation to break the enchantment.
+Instantly, the heavy iron bars began to glow red hot, and the massive bolt snapped off its hinges.
+The metal gate swung wide, revealing a dimly lit hallway beyond. Arin stepped inside cautiously, staff at the ready.
 Inside, the corridors were empty and silent, save for an occasional dripping of water from above. Arin made his way deeper into the heart of the fortress, searching every room and cell he passed for any sign of the orb.
 As he walked, he couldn't help but wonder what kind of evil lay withinthese walls. What did Eryndor, the Dark Sorcerer want with such a powerful artifact? And why was it so important that he keep it hidden?
-Suddenly, Arin stopped in his tracks. Up ahead, he saw a faint golden glow emanating from beneath a closed door. His heart raced as he realized he might have finally found what he was looking for. Quietly, he approached the door and tried the handle. To his relief, it opened easily.
-Arin peeked inside and his jaw dropped. There, on a stone pedestal in the center of the chamber, sat the Orb of Chaos, shimmering with an otherworldly light. But before he could reach for it, a voice spoke out from the darkness.
+Suddenly, Arin stopped in his tracks. Up ahead, he saw a faint golden glow emanating from beneath a closed door.
+His heart raced as he realized he might have finally found what he was looking for.
+Quietly, he approached the door and tried the handle. To his relief, it opened easily.
+Arin peeked inside and his jaw dropped.
+There, on a stone pedestal in the center of the chamber, sat the Orb of Chaos, shimmering with an otherworldly light.
+But before he could reach for it, a voice spoke out from the darkness.
 Eryndor: "Did you think I would not notice you scurrying around in my domains, boy?"
-Arin froze. Turning slowly, he caught a glimpse of the sorcerer standing in the shadows, surrounded by an aura of black magic. Eryndor was tall and gaunt, with long white hair cascading down his shoulders.
+Arin froze. Turning slowly, he caught a glimpse of the sorcerer standing in the shadows, surrounded by an aura of black magic.
+Eryndor was tall and gaunt, with long white hair cascading down his shoulders.
 "I should have known Eldric would come," said Eryndor, stepping forward. "But you are a surprise."
 Arin raised his staff defensively.
 Eryndor chuckled. "Do you really think that puny stick can harm me? I am Eryndor, the Dark Sorcerer. I rule here, and I will not be trifled with."
@@ -317,19 +330,28 @@ Eryndor shook his head, amused. "And who might that be?"
 Arin glanced over at the orb.
 Arin: "Those who seek to destroy you and everything you stand for."
 Eryndor smiled coldly.
-Eryndor: "Oh, I see. You speak for the Magic Council, do you? How quaint. Well, let me assure you, child. The balance between good and evil has already been established. It has endured for centuries, even through the greatest trials. And it will continue to prevail, no matter how many times fools like yourself try to upset it."
+Eryndor: "Oh, I see. You speak for the Magic Council, do you? How quaint."
+Eryndor: "Well, let me assure you, child. The balance between good and evil has already been established. It has endured for centuries, even through the greatest trials."
+Eryndor: "And it will continue to prevail, no matter how many times fools like yourself try to upset it."
 Arin didn't reply. He knew there was little point in arguing with Eryndor. Instead, he focused his attention on the orb once more.
 Eryndor sighed.
 Eryndor: "Very well. If that is your destiny, then so be it. But know this – if you attempt to take the orb, you will meet a swift and painful death."
-With that, he lifted his hand and conjured a wave of dark magic. Arin barely had time to react as a bolt of energy shot towards him, narrowly missing his head. He stumbled backwards, staff at the ready.
+With that, he lifted his hand and conjured a wave of dark magic.
+Arin barely had time to react as a bolt of energy shot towards him, narrowly missing his head.
+He stumbled backwards, staff at the ready.
 Eryndor advanced, grinning malevolently.
 Eryndor: "Shall we dance, boy?"
-Arin held his ground, determined not to give an inch. But as he watched, Eryndor began to circle around him, striking out with blistering attacks that Arin barely managed to parry. Each blow sent shockwaves coursing through his body, sapping his strength.
-Arin knew he couldn't hold out much longer. His arms were growing heavy, his vision beginning to dim. Discarding his own safety, he rushed towards the Orb of Chaos, dodging Eryndor's spells as he reached for it.
+Arin held his ground, determined not to give an inch.
+But as he watched, Eryndor began to circle around him, striking out with blistering attacks that Arin barely managed to parry.
+Each blow sent shockwaves coursing through his body, sapping his strength.
+Arin knew he couldn't hold out much longer. His arms were growing heavy, his vision beginning to dim.
+Discarding his own safety, he rushed towards the Orb of Chaos, dodging Eryndor's spells as he reached for it.
 As soon as his hands landed on the orb, Arin felt the evil power within the magical artifact.
-Eryndor roared in rage and charged forward, staff ablaze with black fire. Arin gritted his teeth and prepared for the final confrontation.
+Eryndor roared in rage and charged forward, staff ablaze with black fire.
+Arin gritted his teeth and prepared for the final confrontation.
 The Orb of Chaos glowed in Arin's hands, and he could feel a pulse from it. It was as if it were talking directly to his mind.
 Arin understood what the orb wanted. A sacrifice, in exchange of power.
 In order to use this weapon against Eryndor, Arin would have to pay a high price.
-What the orb desired from Arin was... His magic. Could he bring himself to part with his power, with his talent, all for the sake of taking down the Dark Sorcerer?
+What the orb desired from Arin was... His magic.
+Could he bring himself to part with his power, with his talent, all for the sake of taking down the Dark Sorcerer?
 [What will Arin do?:|Sacrifice his magic power|Don't sacrifice his magic power

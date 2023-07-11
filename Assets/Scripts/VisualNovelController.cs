@@ -264,7 +264,7 @@ public class VisualNovelController : MonoBehaviour
 
             { 104, 29 }, //Same as the previous one, Arin levitating one stone.
             { 111, 29 }, //Arin and Eldric have dinner, re-use the picture used in line 84
-            { 114, 61 }, // Picture of Eryndor, the Dark Sorcerer, since they are talking about him. Use one of the images that are already there. (DONE)
+            { 114, 109 }, // Picture of Eryndor, the Dark Sorcerer, since they are talking about him. Use one of the images that are already there. (DONE)
             { 117, 29 }, // Re-use the picture of Arin and Eldric having dinner.
             { 125, 29 }, // Eldric drags out a chest from the corner of the training room.
             { 136, 29 }, // Arin makes the chest float in the air
@@ -286,10 +286,47 @@ public class VisualNovelController : MonoBehaviour
             { 195, 29 }, // Sabel raises a magical barrier, her eyes glowing with light.
             { 197, 29 }, // Arin raises a wall of debris and rock chunks from all over the place.
             { 200, 29 }, // A magical blast from Eldric breaks the barrier.
+            { 209, 29 }, // Arin struggling to keep the new, smaller barrier barrier from breaking, as Eldric attacks it.
+            { 214, 29 }, // Sabel declares the end of the match, claiming that Arin passes her test.
+            { 215, 29 }, // Eldric passes Arin too, patting him on the back with a smile.
+            { 219, 29 }, // Sabel hands Arin a badge
+            { 226, 29 }, // Eldric and Sabel smile at Arin. Probably re-use an already existing image.
+            { 235, 51 }, //Arin sitting at his bed. Probably re-use a picture that is already there. (DONE)
 
-            { 236, 160 }, //Chapter 7: Call for adventure
-            { 272, 158 }, //Chapter 8: Infiltration 
-            { 337, 158 },
+            { 237, 160 }, //Chapter 7: Call for adventure
+
+            { 238, 29 }, // Morning, Arin wakes up Maybe a repeat of Arin's room. Re-use the imag of line 85
+            { 240, 29 }, // Arin's mother, smiling.
+            { 245, 29 }, //Arin hugs his mother.
+            { 246, 29 }, // Irina, pouting.
+            { 249, 29 }, // Irina happily hugging Arin, who smiles down at her.
+            { 251, 29 }, //Sabel arrives.
+            { 252, 50 }, //Walking around the village with Sabel (DONE)
+            { 259, 29 }, // Eldric sitting at his table, on the tower, looking serious.
+            { 263, 29 }, // Eldric and Sabel exchanging glances.
+            { 268, 29 }, //Eldric, Sabel and Arin sitting at the table, talking.
+            { 274, 29 }, //Sabel gives Arin a reassuring pat on the shoulder.
+
+            { 276, 158 }, //Chapter 8: Infiltration 
+
+            { 277, 158 }, //Eldric and Arin walking through the forest.
+            { 283, 158 }, // A member of the black guard, carrying a spear.
+            { 287, 158 }, // Arin shoots a blast of magic to the black guard, hitting him on the chest and defeating him.
+            { 289, 158 }, // Arin turns to face Eldric.
+            { 293, 158 }, // Soon they came across a large wooden gate, surrounded by towering walls and topped with sharp spikes. (entrance of the fortress.)
+            { 297, 158 }, //Entrance of a hidden tunnel, hidden in the woods.
+            { 301, 158 }, //Metal door at the end of the hidden passage.
+            { 311, 158 }, //Metal door opens, revealing a dimly lit hallway.
+            { 314, 158 }, // A closed door in the hallway, emanating a golden glow from within. 
+            { 318, 158 }, // The Chaos orb, sitting on a pedestal, glowing.
+            { 321, 61 }, // Eryndor, the Dark Sorcerer. (DONE)
+            { 327, 158 }, // Arin looking defiant.
+            { 331, 61 }, // Eryndor, again, smiling coldly.
+            { 338, 158 }, //Eryndor, casting a dark spell, a wave of dark magic.
+            { 343, 158 }, //Arin struggling against Eryndor's barrage of spells.
+            { 347, 158 }, // Arin dashes towards the Chaos Orb, while dodging dark spells.
+            { 349, 158 }, //Eryndor roared with rage, staff ablaze with black fire.
+            { 351, 131 }, // The orb of chaos glows in Arin's hands (DONE)
 
         };
 
@@ -299,7 +336,24 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act2AAImageChangingLines = new Dictionary<int, int>()
         {
-            { 1, 149 },
+            { 0, 131 },
+            { 4, 158 }, // The orb, floating in the air, releases a wave of light and explodes.
+            { 7, 158 }, // Eryndor is engulfed by the explosive magical blast of the orb.
+            { 9, 158 }, // Arin collapses to the floor, as his magic escapes from his body.
+            { 14, 158 }, // Eldric arrives into the chamber, finding Arin on the floor. Or rather, Arin watches from the floor as Eldric arrives
+            { 16, 158 }, // Eldric, kneeling next to Arin, tears falling from his eyes, sad.
+            { 21, 158 }, // Eldric places his hands on Arin's chest, infusing him with magic so that he may survive.
+            { 25, 158 }, // Eldric picks up Arin in his arms and carries him outside of the fortress.
+            { 27, 158 }, // Arin wakes up in bed, with his family surrounding him.
+            { 33, 158 }, // Arin in bed, looking weak. He closes his eyes, smiling.
+            { 34, 158 }, // Image of the village, pleaceful.
+            { 35, 158 }, // His mother kept a close eye on him, making sure he was getting enough rest and food.
+            { 36, 158 }, // Irina brought him little treats and snacks to cheer him up, and told him funny stories to make him laugh.
+            { 37, 158 }, // His father sat next to him, telling him about his adventures during his youth, to keep him entertained.
+            { 38, 158 }, // Arin in bed with eyes closed. Re-use the picture from line 33
+            { 40, 28 }, // Eldric's tower. (DONE)
+            { 42, 158 }, // Eldric, smiling. (DONE)
+            { 43, 158 }, // With his family by his side, Arin returns home that evening.
 
         };
 
@@ -310,7 +364,30 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act2ABImageChangingLines = new Dictionary<int, int>()
         {
-            { 1, 149 },
+            { 0, 158 },
+            { 1, 158 }, // Arin, holding the orb, dejected.
+            { 2, 158 }, // Arin is struck by a spell, sending him bflying backwards.
+            { 4, 158 }, // Eryndor grinning cruelly.
+            { 11, 158 }, // Eryndor raising his staff, casting a spell as darkness falls, descending all around them.
+
+            { 12, 158 }, // Chapter 9: The final battle
+
+            { 13 , 111 }, // Eryndor, holding the chaos orb.
+            { 16, 158 }, // Arin struggling against Eryndor's spells. Re-use the image from line 200 from act 1A
+            { 18, 158 }, //Eldric arrives into the room, providing help.
+            { 21, 158 }, //Eryndor scowling
+            { 24, 158 }, // Return to the picture with Eldric.
+            { 27, 158 }, // Eryndor casting spells
+            { 29, 158 }, // Arin throws a chunk of rock to Eryndor.
+            { 30, 158 }, //Eryndor casting black flames. Re-use the image from line 349 from Act 1A
+            { 33, 158 }, //Eryndor looking menacing. Maybe re-use the image from line 4?
+            { 37, 158 }, //Glass breaking, crystal breaking.
+            { 40, 158 }, // Arin grabs the orb of chaos and throws/smashes it against Eryndor's head.
+            { 44, 158 }, //Arin let out a sigh of relief. He had won.
+            { 45, 158 }, // The fortress crumbles and collapse, as the knights in black armor flee in a panic.
+            { 47, 157 }, // Eldric placing a hand on Arin's shoulder (DONE)
+            { 55, 158 }, // Arin follows Eldric out of the fortress.
+
 
         };
 
