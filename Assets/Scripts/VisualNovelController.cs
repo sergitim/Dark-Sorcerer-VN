@@ -106,7 +106,18 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act1ASongChangingLines = new Dictionary<int, int>()
         {
-            { 0, 3 },
+            { 0, 1 },
+            { 37, 2 }, // Chapter 4 the training begins
+            { 48, 1 },
+            { 169, 3 },
+            { 192, 4 },
+            { 216, 3 },
+            { 235, 1 },
+            { 238, 2 },
+            { 253, 1 },
+            { 276, 4 },
+            { 311, 1 },
+            { 320, 6 },
 
         };
 
@@ -153,13 +164,50 @@ public class VisualNovelController : MonoBehaviour
         songChangingLinesByAct.Add("act2BA", act2BASongChangingLines);
 
 
-        Dictionary<int, int> act3BAASongChangingLines = new Dictionary<int, int>()
+        Dictionary<int, int> act2BBSongChangingLines = new Dictionary<int, int>()
         {
             { 0, 5 },
+            { 9, 1 },
+            { 20, 4 },
+            { 39, 1 },
+            { 61, 4 },
+            { 86, 6 },
+
 
         };
 
-        songChangingLinesByAct.Add("act3BAA", act3BAASongChangingLines);
+        songChangingLinesByAct.Add("Act2BB", act2BBSongChangingLines);
+
+
+
+        Dictionary<int, int> act2AASongChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 4 },
+            { 10, 5 },
+
+
+
+        };
+
+        songChangingLinesByAct.Add("act2AA", act2AASongChangingLines);
+
+
+        Dictionary<int, int> act2ABSongChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 6 },
+            { 18, 4 },
+            { 44, 3 },
+
+        };
+
+        songChangingLinesByAct.Add("act2AB", act2ABSongChangingLines);
+
+
+
+
+
+
+
 
 
 
@@ -170,6 +218,43 @@ public class VisualNovelController : MonoBehaviour
         };
 
         songChangingLinesByAct.Add("act3BAB", act3BABSongChangingLines);
+
+
+
+
+        Dictionary<int, int> act3BAASongChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 5 },
+
+        };
+
+
+        songChangingLinesByAct.Add("act3BAA", act3BAASongChangingLines);
+
+
+        Dictionary<int, int> act3BBASongChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 6 },
+            { 10, 4 },
+            { 28, 5 },
+            { 62, 2 },
+
+        };
+
+
+        songChangingLinesByAct.Add("act3BBA", act3BBASongChangingLines);
+
+        Dictionary<int, int> act3BBBSongChangingLines = new Dictionary<int, int>()
+        {
+            { 0, 6 },
+            { 9, 4 },
+            { 22, 5 },
+            { 35, 3 },
+
+        };
+
+
+        songChangingLinesByAct.Add("act3BBB", act3BBBSongChangingLines);
 
 
 
@@ -234,19 +319,19 @@ public class VisualNovelController : MonoBehaviour
             { 8, 32 }, //Needs to be changed by a picture of Arin's little sister, when she's still a little girl
             { 11, 158 },
             { 16, 34 }, //Consider changing this one. It requires Sabel looking slightly unhappy.
-            { 22, 32 }, //Change it to one with Sabel standing next to Irina and her mother.
+            { 22, 159 }, //Change it to one with Sabel standing next to Irina and her mother. (DONE)
             { 23, 158 }, //Eldric.
             { 28, 157 }, // Arin and Eldric sit, as they discuss their training
             { 37, 28 }, //Chpter 4: Training begins.
 
-            { 38, 29 }, //Arin reading a book, studying.
-            { 41, 29 }, //Arin with his family. He took Irina on walks in the forest, played games with her, and helped his mother care for his bedridden father.
-            { 43, 29 }, //Arin laying in bed, contemplative, at night.
-            { 46, 29 }, // Transition scene, the following day... Arin packing up his bags OR picture of the village.
+            { 38, 160 }, //Arin reading a book, studying.
+            { 41, 161 }, //Arin with his family. He took Irina on walks in the forest, played games with her, and helped his mother care for his bedridden father.
+            { 43, 51 }, //Arin laying in bed, contemplative, at night. (DONE)
+            { 46, 25 }, // Transition scene, the following day... Arin packing up his bags OR picture of the village. (DONE)
             { 48, 28 }, //Eldric's tower. (DONE)
             { 51, 29 }, //Eldric greets arin and leads him to his room.
-            { 59, 29 }, //Arin's new room at the tower.
-            { 62, 29 }, // Training/meditation room. Arin followed Eldric to a spacious room filled with books, potions, and various magical artifacts. There was a large circle etched onto the floor, and Eldric gestured for Arin to stand in the center of it.
+            { 57, 162 }, //Arin's new room at the tower. (DONE)
+            { 62, 163 }, // Training/meditation room. (DONE) Arin followed Eldric to a spacious room filled with books, potions, and various magical artifacts. There was a large circle etched onto the floor, and Eldric gestured for Arin to stand in the center of it.
             { 65, 29 }, // Arin, with his eyes closed. Magic glow around him, or gathered around his hand, if it appears in the image.
             { 71, 29 }, //Eldric talking to Arin, while Arin practices magic diligently.
             { 75, 29 }, //Training rom 2, with training dummies.
@@ -530,7 +615,7 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act2BBImageChangingLines = new Dictionary<int, int>()
         {
-            { 1, 149 },
+            { 0, 164 },
 
         };
 
@@ -539,7 +624,7 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act3BBAImageChangingLines = new Dictionary<int, int>()
         {
-            { 1, 149 },
+            { 0, 165 },
 
         };
 
@@ -549,7 +634,7 @@ public class VisualNovelController : MonoBehaviour
 
         Dictionary<int, int> act3BBBImageChangingLines = new Dictionary<int, int>()
         {
-            { 1, 149 },
+            { 0, 166 },
 
         };
 
@@ -960,7 +1045,7 @@ public class VisualNovelController : MonoBehaviour
             {
                 if (imageChangingLinesByAct.ContainsKey(act))
                 {
-                    Debug.Log("Yessss~  Load " + act);
+                    Debug.Log(" Load " + act);
                     Dictionary<int, int> imageChangingLines = imageChangingLinesByAct[act];
                     int previousKey = -1; // Variable to store the key with a value immediately lesser
 
@@ -977,12 +1062,14 @@ public class VisualNovelController : MonoBehaviour
                     Debug.Log(previousKey);
                     if (previousKey == -1)
                     {
-                        Background.sprite = Sprite.Create(BackgroundImages[imageChangingLines[0]], new Rect(0.0f, 0.0f, BackgroundImages[imageChangingLines[0]].width, BackgroundImages[imageChangingLines[0]].height), new Vector2(0.5f, 0.5f), 100.0f);
+                        Background.sprite = Sprite.Create(BackgroundImages[imageChangingLines[0]], 
+                            new Rect(0.0f, 0.0f, BackgroundImages[imageChangingLines[0]].width, BackgroundImages[imageChangingLines[0]].height), new Vector2(0.5f, 0.5f), 100.0f);
 
                     }
                     else
                     {
-                        Background.sprite = Sprite.Create(BackgroundImages[imageChangingLines[previousKey]], new Rect(0.0f, 0.0f, BackgroundImages[imageChangingLines[previousKey]].width, BackgroundImages[imageChangingLines[previousKey]].height), new Vector2(0.5f, 0.5f), 100.0f);
+                        Background.sprite = Sprite.Create(BackgroundImages[imageChangingLines[previousKey]], 
+                            new Rect(0.0f, 0.0f, BackgroundImages[imageChangingLines[previousKey]].width, BackgroundImages[imageChangingLines[previousKey]].height), new Vector2(0.5f, 0.5f), 100.0f);
                     }
 
 
